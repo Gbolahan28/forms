@@ -55,13 +55,13 @@ html, body {
 }
 
 .website-logo {
-    display: inline-block;
+    display: block;
     position: absolute;
     z-index: 1000;
     top: 50px;
     left: 50px;
-    right: initial;
-    bottom: initial;
+    width: 100%;
+   text-align: left;
 }
 
 .website-logo img {
@@ -69,12 +69,13 @@ html, body {
 }
 
 .website-logo a {
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 .website-logo .logo {
-    display: inline-block;
-    background-image: url("../images/logo-light.svg");
+    display: block;
+    background-image: url("../images/Pika\ Logo\ White\ Usage\ SVG.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
