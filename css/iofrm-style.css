@@ -49,6 +49,8 @@ html, body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -367,9 +369,10 @@ html, body {
 }
 
 .form-holder {
-    margin-left: 550px;
+    /* margin-left: 550px; */
     width: 100%;
 }
+
 
 .form-holder .form-content {
     position: relative;
